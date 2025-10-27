@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Bookstore_20251027_II"
+  description: "Bookstore_20251027_II"
+  annotations:
+    github.com/project-slug: mbo-gitorg/Bookstore_20251027_II
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: Bookstore_20251027_II
+spec:
+  type: service
+  lifecycle: development
+  #  system: data-table-exposure
+  owner: "group:default/marketplace-entries-group"
+  providesApis: ['Bookstore_20251027_II-api']
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: Bookstore_20251027_II-api-location
+spec:
+  targets:
+    - ./catalog-api.yaml

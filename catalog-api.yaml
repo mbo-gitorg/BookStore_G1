@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: 'Bookstore_20251027_II-api'
+  description: 'API for Bookstore_20251027_II'
+  tags:
+    - store
+    - rest
+  links:
+    - url: https://github.com/mbo-gitorg/Bookstore_20251027_II
+      title: GitHub Repo
+      icon: github
+#    - url: https://github.com/mbo-gitorg/Bookstore_20251027_I/blob/master/api-spec/APISpec.yaml
+#      title: API Spec
+#      icon: code
+spec:
+  type: openapi
+  lifecycle: production
+  owner: "group:default/marketplace-entries-group"
+  apiConsumedBy: ['component:Bookstore_20251027_II']
+  definition:
+    $text: ./swagger.json
