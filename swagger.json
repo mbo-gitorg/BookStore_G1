@@ -48,7 +48,7 @@
           {
             "in": "body",
             "name": "Book",
-            "description": "Sample Description",
+            "description": "Sample Description1",
             "required": true,
             "schema": {
               "$ref": "#/definitions/Book"
