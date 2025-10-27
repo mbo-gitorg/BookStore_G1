@@ -1,0 +1,8 @@
+site_name: "Bookstore_20251027_I"
+site_description: "Bookstore_20251027_I"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
