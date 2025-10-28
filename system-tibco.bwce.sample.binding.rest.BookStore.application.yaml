@@ -1,7 +1,7 @@
 # Debug inputs
 #       application_folder: "."
 #              application: "tibco.bwce.sample.binding.rest.BookStore.application"
-#               bw6_system: 
+#               bw6_system: "EAI"
 #         bw6_project_name: "tibco.bwce.sample.binding.rest.BookStore.application"
 #  bw6_project_description: ""
 #     bw6_project_manifest: ["Manifest-Version: 1.0","Manifest-Version: 1.0",""]
@@ -32,8 +32,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: 
-  description: 
+  name: EAI
+  description: EAI
   annotations:
      github.com/project-slug: https://github.com/mbo-gitorg/BookStore_G1
   tags:
